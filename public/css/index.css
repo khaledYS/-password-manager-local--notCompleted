@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.status{
+    height: 20vh;
+}
+.signbtns{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
+.signBtn{
+    cursor: pointer;
+    margin: 10px 0;
+    background: rgb(117, 117, 117);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 2px 0;
+    transition: all 0.5s ease-in-out;
+}
+.signBtn:hover{
+    color: #eee;
+    background: rgb(105, 56, 0);
+}
